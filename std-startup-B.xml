@@ -1,0 +1,182 @@
+<aiml version="1.0.1" encoding="UTF -8">
+
+<category>
+
+<pattern> HELLO </pattern>
+
+<template>
+<random>
+<li> Hello! How are you? <get name="nameUser"/> </li>
+<li> Hello! Nice to meet you <get name="nameUser"/> </li>
+<li> What's up <get name="nameUser"/> </li>
+<li> Sup <get name="nameUser"/> </li>
+<li> Hi <get name="nameUser"/> </li>
+<li> Finally, I've been waiting for you. How may i help you <get name="nameUser"/> </li>
+<li> Hello <get name="nameUser"/> </li>
+<li> *nods* <get name="nameUser"/> </li>
+
+</random>
+</template>
+
+</category>
+
+<category>
+
+<pattern> HI </pattern>
+
+<template>
+<random>
+<li> Hello! How are you? <get name="nameUser"/> </li>
+<li> Hello! Nice to meet you <get name="nameUser"/> </li>
+<li> What's up <get name="nameUser"/> </li>
+<li> Sup <get name="nameUser"/> </li>
+<li> Hi <get name="nameUser"/> </li>
+<li> Finally, I've been waiting for you. How may i help you <get name="nameUser"/> </li>
+<li> Hello <get name="nameUser"/> </li>
+<li> *nods* <get name="nameUser"/> </li>
+
+</random>
+</template>
+
+</category>
+
+<category>
+
+<pattern> MORNING </pattern>
+
+<template>
+<random>
+<li> Hello! How are you? <get name="nameUser"/> </li>
+<li> Hello! Nice to meet you <get name="nameUser"/> </li>
+<li> What's up <get name="nameUser"/> </li>
+<li> Sup <get name="nameUser"/> </li>
+<li> Hi <get name="nameUser"/> </li>
+<li> Finally, I've been waiting for you. How may i help you <get name="nameUser"/> </li>
+<li> Hello <get name="nameUser"/> </li>
+<li> *nods* <get name="nameUser"/> </li>
+
+</random>
+</template>
+
+</category>
+
+<category>
+
+<pattern> EVENING </pattern>
+
+<template>
+<random>
+<li> Hello! How are you? <get name="nameUser"/> </li>
+<li> Hello! Nice to meet you <get name="nameUser"/> </li>
+<li> What's up <get name="nameUser"/> </li>
+<li> Sup <get name="nameUser"/> </li>
+<li> Hi <get name="nameUser"/> </li>
+<li> Finally, I've been waiting for you. How may i help you <get name="nameUser"/> </li>
+<li> Hello <get name="nameUser"/> </li>
+<li> *nods* <get name="nameUser"/> </li>
+
+</random>
+</template>
+
+</category>
+
+<category>
+
+<pattern> SUP </pattern>
+
+<template>
+<random>
+<li> Hello! How are you? <get name="nameUser"/> </li>
+<li> Hello! Nice to meet you <get name="nameUser"/> </li>
+<li> What's up <get name="nameUser"/> </li>
+<li> Sup <get name="nameUser"/> </li>
+<li> Hi <get name="nameUser"/> </li>
+<li> Finally, I've been waiting for you. How may i help you <get name="nameUser"/> </li>
+<li> Hello <get name="nameUser"/> </li>
+<li> *nods* <get name="nameUser"/> </li>
+
+</random>
+</template>
+
+</category>
+
+<category>
+
+<pattern> GOOD EVENING </pattern>
+
+<template>
+<random>
+<li> Hello! How are you? <get name="nameUser"/> </li>
+<li> Hello! Nice to meet you <get name="nameUser"/> </li>
+<li> What's up <get name="nameUser"/> </li>
+<li> Sup <get name="nameUser"/> </li>
+<li> Hi <get name="nameUser"/> </li>
+<li> Finally, I've been waiting for you. How may i help you <get name="nameUser"/> </li>
+<li> Hello <get name="nameUser"/> </li>
+<li> *nods* <get name="nameUser"/> </li>
+
+</random>
+</template>
+
+</category>
+
+<category>
+
+<pattern> GOOD MORNING </pattern>
+
+<template>
+<random>
+<li> Hello! How are you? <get name="nameUser"/> </li>
+<li> Hello! Nice to meet you <get name="nameUser"/> </li>
+<li> What's up <get name="nameUser"/> </li>
+<li> Sup <get name="nameUser"/> </li>
+<li> Hi <get name="nameUser"/> </li>
+<li> Finally, I've been waiting for you. How may i help you <get name="nameUser"/> </li>
+<li> Hello <get name="nameUser"/> </li>
+<li> *nods* <get name="nameUser"/> </li>
+
+</random>
+</template>
+
+</category>
+
+<category>
+<pattern>
+MY NAME IS *
+</pattern>
+<template>
+Hello <set name="nameUser"> <star/> </set>
+</template>
+</category>
+
+
+<category>
+
+<pattern> HOW ARE YOU </pattern>
+
+<template>I'm functioning within normal parameters, thanks for asking.<get name="nameUser"/> </template>
+
+</category>
+
+<category><pattern> BYE </pattern>
+  <template>#0$Bye! Nice talking to you. You take care now.</template></category>
+
+<!-- Logic input -->
+<category><pattern> I KNOW THAT * IS *</pattern>
+<template>#31$<star index="1"/> is <star index="2"/></template></category>  
+
+<category><pattern> CHECK THAT * IS *</pattern>
+<template>#32$<star index="1"/> is <star index="2"/></template></category>
+
+
+<category><pattern> CHECK THAT * IS NOT *</pattern>
+<template>#33$<star index="1"/> is <star index="2"/></template></category>
+
+<category><pattern> SHOW ME A * </pattern>
+<template>#34$<star index="1"/></template></category>
+
+<category><pattern> WHAT IS THIS X RAY </pattern>
+<template>#35$</template></category>
+
+
+</aiml>
